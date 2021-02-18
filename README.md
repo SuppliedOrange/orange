@@ -1,4 +1,4 @@
 # orange
-https://img.shields.io/static/v1?label=<orange>&message=<orange>&color=<ORANGE> is the best colour, if you think otherwise you are dead to me
+https://img.shields.io/static/v1?label=supplied&message=orange&color=orange 
 
-oh and blue, blue is cool.
+not much to read here, i havent quite decided what even this package does
