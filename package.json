@@ -1,4 +1,14 @@
 {
 "name": "@suppliedorange/orange",
-"version": "1.0.0"
+"version": "1.0.0",
+"description": "Checks if your string is equal to orange",
+"license": "MIT",
+"repository": "suppliedorange/orange",
+"main": "index.js",
+"keywords": [
+  "orange",
+  "npm",
+  "package",
+  "suppliedorange"
+]
 }
