@@ -83,7 +83,7 @@ module.exports = function badlyMixedOrange(string) {
   var orange =  ["a", "e", "g", "n", "o", "r"]
   var thecoolerstring = string.split("").sort()
 
-  #get ready for some bad, bad code formatting
+  //get ready for some bad, bad code formatting
   
   let o = thecoolerstring;
   if ( o.includes("o")  /* o */ && o.includes("r") /* r */ && o.includes("a") /* a */ && o.includes("n") /* n */ && o.includes("g") /* g */ && o.includes("e") /* e */ ) {
