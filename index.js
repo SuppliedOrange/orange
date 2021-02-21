@@ -70,3 +70,29 @@ for (var i = 0; i < stringsort.length; ++i) {
   return yayitsanorange;
 };
  
+module.exports = function badlyMixedOrange(string) {
+  
+
+  let yayitsanorange = "";
+  let dontlooklikeanorange = "Critical Error: No Oranges";
+ 
+  
+  if (typeof string !== "string") throw new TypeError("This is a STRING-only club, sorry pal.");
+  if (string.length > 6) { return dontlooklikeanorange }
+  
+  var orange =  ["a", "e", "g", "n", "o", "r"]
+  var thecoolerstring = string.split("").sort()
+
+  #get ready for some bad, bad code formatting
+  
+  let o = thecoolerstring;
+  if ( o.includes("o")  /* o */ && o.includes("r") /* r */ && o.includes("a") /* a */ && o.includes("n") /* n */ && o.includes("g") /* g */ && o.includes("e") /* e */ ) {
+    
+  return yayitsanorange;
+  }
+  
+  else {
+   return dontlooklikeanorange;
+  };
+};
+ 
