@@ -5,13 +5,14 @@ module.exports = function orange(string) {
   
   if (typeof string !== "string") throw new TypeError("Oranges are strings, just strings.");
   if (string.toLowerCase() == "orange") {
-  return yayitsanorange
+   return yayitsanorange
   }
   
   else {
   return dontlooklikeanorange
   };
 };
+
 module.exports = function includesOrange(string) {
 
   let yayitsanorange = "I sense an orange among us.";
@@ -19,7 +20,7 @@ module.exports = function includesOrange(string) {
   
   if (typeof string !== "string") throw new TypeError("You might want to look for an orange in a string");
   if (string.toLowerCase().includes("orange")) {
-  return yayitsanorange
+   return yayitsanorange
   }
   
   else {
@@ -33,8 +34,15 @@ module.exports = function hasOrange(string) {
   let dontlooklikeanorange = "Reeks of darn vegetables. No oranges here";
   
   if (!Array.isArray(string)) throw new TypeError("i looked far and wide. i couldn't find an array :(");
-  if (string.toLowerCase().includes("orange")) {
-  return yayitsanorange
+  
+  if (string.toString().toLowerCase().includes("orange")) {
+    var letsmakeitastring = string.map(String)
+    var lowercasethearray = letsmakeitastring.map(v => v.toLowerCase());
+    console.log(lowercasethearray);
+    let newarray = lowercasethearray
+    
+    let wefoundorange = newarray.indexOf("orange");
+    return yayitsanorange + "\n Array Index: " + wefoundorange;
   }
   
   else {
@@ -61,4 +69,4 @@ for (var i = 0; i < stringsort.length; ++i) {
   }
   return yayitsanorange;
 };
-
+ 
