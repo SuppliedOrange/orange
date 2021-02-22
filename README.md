@@ -1,5 +1,5 @@
-# orange
-orange?
+# oranges
+oranges?
 
 orange() -> string
 
