@@ -1,5 +1,9 @@
-# oranges
-oranges?
+# orange
+
+orange?
+```diff
+! var oranges = require("@suppliedorange/oranges")
+```
 
 orange() -> string
 
