@@ -1,14 +1,16 @@
 {
-"name": "@suppliedorange/orange",
-"version": "1.0.0",
-"description": "Checks if your string is equal to orange",
-"license": "MIT",
-"repository": "suppliedorange/orange",
-"main": "index.js",
-"keywords": [
-  "orange",
-  "npm",
-  "package",
-  "suppliedorange"
-]
+  "name": "@suppliedorange/oranges",
+  "version": "1.0.3",
+  "description": "Checks if your string is equal to orange",
+  "license": "MIT",
+  "repository": "suppliedorange/oranges",
+  "main": "index.js",
+  "keywords": [
+    "orange",
+    "oranges",
+    "npm",
+    "package",
+    "suppliedorange",
+    "color"
+  ]
 }
