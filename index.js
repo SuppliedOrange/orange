@@ -1,4 +1,4 @@
-module.exports = function orange(string) {
+exports.orange = function orange(string) {
 
   let yayitsanorange = "Looks like you've got an orange there. Way to go pal!";
   let dontlooklikeanorange = "Nope, that doesn't look like an orange. Not from around town at least";
@@ -13,7 +13,7 @@ module.exports = function orange(string) {
   };
 };
 
-module.exports = function includesOrange(string) {
+exports.includesOrange = function includesOrange(string) {
 
   let yayitsanorange = "I sense an orange among us.";
   let dontlooklikeanorange = "Just rotten apples here. ROTTEN. APPLES";
@@ -28,7 +28,7 @@ module.exports = function includesOrange(string) {
   };
 };
 
-module.exports = function hasOrange(string) {
+exports.hasOrange = function hasOrange(string) {
 
   let yayitsanorange = "There is an orange here! An orange!";
   let dontlooklikeanorange = "Reeks of darn vegetables. No oranges here";
@@ -50,7 +50,7 @@ module.exports = function hasOrange(string) {
   };
 };
 
-module.exports = function mixedOrange(string) {
+exports.mixedOrange = function mixedOrange(string) {
   
 
   let yayitsanorange = "ORANGE D E T E C T E D";
@@ -70,7 +70,7 @@ for (var i = 0; i < stringsort.length; ++i) {
   return yayitsanorange;
 };
  
-module.exports = function badlyMixedOrange(string) {
+exports.badlyMixedOrange = function badlyMixedOrange(string) {
   
 
   let yayitsanorange = "Found an orange, we have";
