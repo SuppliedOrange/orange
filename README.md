@@ -4,13 +4,14 @@ orange?
 ```diff
 ! var oranges = require("@suppliedorange/oranges")
 ```
+### oranges ###
 
-orange() -> string
+.orange() -> string
 
-includesOrange() -> thorough string check
+.includesOrange() -> thorough string check
 
-hasOrange() -> array
+.hasOrange() -> array
 
-mixedOrange() -> orange unscrambler
+.mixedOrange() -> orange unscrambler
 
-badlyMixedOrange() -> a more intense orange unscrambler
+.badlyMixedOrange() -> a more intense orange unscrambler
