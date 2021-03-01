@@ -37,7 +37,7 @@ exports.hasOrange = function hasOrange(string) {
   
   if (string.toString().toLowerCase().includes("orange")) {
     var letsmakeitastring = string.map(String)
-    var lowercasethearray = letsmakeitastring.map(v => v.toLowerCase());
+    var lowercasethearray = letsmakeitastring.map(oj => oj.toLowerCase());
     console.log(lowercasethearray);
     let newarray = lowercasethearray
     
@@ -81,13 +81,10 @@ exports.badlyMixedOrange = function badlyMixedOrange(string) {
   
   
   var thecoolerstring = string.split("").sort()
-
-  //get ready for more bad code
   
-  let o = thecoolerstring;
+  let anorangearray = ['o','r','a','n','g','e'];
   
-  
-  if ( o.includes("o")  /* o */ && o.includes("r") /* r */ && o.includes("a") /* a */ && o.includes("n") /* n */ && o.includes("g") /* g */ && o.includes("e") /* e */ ) {
+  if ( anorangearray.every(orng => thecoolerstring.includes(orng)) ) {
     
   return yayitsanorange;
   }
@@ -97,4 +94,3 @@ exports.badlyMixedOrange = function badlyMixedOrange(string) {
    return dontlooklikeanorange;
   };
 };
-
